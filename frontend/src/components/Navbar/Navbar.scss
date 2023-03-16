@@ -18,12 +18,12 @@
   align-items: center;
 
   img {
-    width: 140px;
+    width: 80px;
     height: 40px;
 
     @media screen and (min-width: 1500px) {
-      width: 250px;
-      height: 50px;
+      width: 150px;
+      height: 75px;
     }
   }
 }
