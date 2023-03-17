@@ -26,8 +26,8 @@ const Header = () => {
           <div className="badge-cmp app__flex">
             <span>👋</span>
             <div style={{ marginLeft: 20 }}>
-              <p className="p-text">Hi there, I'm</p>
-              <h1 className="head-text">Luciano</h1>
+              <p className="p-text">Hi there!!!</p>
+              <h1 className="head-text">I'm Luciano</h1>
             </div>
           </div>
           <div className="tag-cmp app__flex">
@@ -39,7 +39,7 @@ const Header = () => {
       <motion.div
         whileInView={{ opacity: [0, 1] }}
         transition={{ duration: 0.5, delayChildren: 0.5 }}
-        className="app__header-info"
+        className="app__header-img"
       >
         <img src={images.profile} alt="profile_bg" />
         <motion.img
