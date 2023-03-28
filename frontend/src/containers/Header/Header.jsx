@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { AppWrapp } from '../../wrapper'
+import { AppWrap, MotionWrap } from '../../wrapper'
 import { images } from "../../constants";
 import "./Header.scss";
 
@@ -66,4 +66,7 @@ const Header = () => {
   );
 };
 
-export default AppWrapp(Header, 'home');
+export default AppWrap(
+  MotionWrap(Header, 'app__home'),
+  'home', 
+  'app__primarybg');
