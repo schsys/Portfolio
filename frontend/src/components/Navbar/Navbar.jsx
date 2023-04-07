@@ -3,7 +3,7 @@ import { images } from "../../constants";
 import { HiMenuAlt4, HiX } from "react-icons/hi";
 import { motion } from "framer-motion";
 import "./Navbar.scss";
-const resume = import("./ldsch-resume.pdf");
+import resume from "./ldsch-resume.pdf";
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
