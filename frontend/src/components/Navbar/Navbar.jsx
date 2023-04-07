@@ -3,7 +3,7 @@ import { images } from "../../constants";
 import { HiMenuAlt4, HiX } from "react-icons/hi";
 import { motion } from "framer-motion";
 import "./Navbar.scss";
-
+const resume = import("./ldsch-resume.pdf");
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
@@ -20,7 +20,7 @@ const Navbar = () => {
         ))}
         <li className="app__flex p-text">
             <div />
-            <a href="https://github.com/clarkos/Portfolio/blob/main/frontend/public/ldsch-resume.pdf" download>resume</a>
+            <a href={resume} download="ldsch-resume.pdf">resume</a>
           </li>
       </ul>
       <div className="app__navbar-menu">
