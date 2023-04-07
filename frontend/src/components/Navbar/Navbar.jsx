@@ -15,9 +15,13 @@ const Navbar = () => {
         {["home", "about", "work", "skills", "contact"].map((item) => (
           <li className="app__flex p-text" key={`link-${item}`}>
             <div />
-            <a href={`#${item}`}>{item}</a>
+            <a href="https://www.dropbox.com/s/zhboifwigzle4cv/FullStackDev_EN.pdf?dl=0" download="ldsch-resume.pdf">resume</a>
           </li>
         ))}
+        <li className="app__flex p-text">
+            <div />
+            <a href={`#${item}`}>{item}</a>
+          </li>
       </ul>
       <div className="app__navbar-menu">
         <HiMenuAlt4 onClick={() => setToggle(true)} />
