@@ -1,16 +1,19 @@
+import Navigation from '@/components/Navigation'
 import Hero from '@/containers/Hero'
 import Projects from '@/containers/Projects'
 import Services from '@/containers/Services'
 import Solutions from '@/containers/Solutions'
-import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main className="text-center">
-      <Hero />
-      <Solutions />
-      <Services />
-      <Projects />
-    </main>
+    <>
+      <Navigation />
+      <main className="text-center bg-white-300">
+        <Hero />
+        <Solutions />
+        <Services />
+        <Projects />
+      </main>
+    </>
   )
 }
