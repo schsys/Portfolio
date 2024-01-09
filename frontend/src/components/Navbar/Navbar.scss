@@ -155,10 +155,12 @@
 }
 
 .button-resume {
+  display:block;
   background-color: #f8f9fa;
   border: 1px solid #f8f9fa;
   border-radius: 4px;
   color: #3c4043;
+  padding: 1em;
   cursor: pointer;
   font-family: arial,sans-serif;
   font-size: 14px;
@@ -168,16 +170,17 @@
   padding: 0 16px;
   text-align: center;
   user-select: none;
-  padding: 5px 3px;
   -webkit-user-select: none;
   touch-action: manipulation;
   white-space: pre;
 
   a {
     text-decoration: none;
+    color:#202124;
+    font-weight: 500;
   }
 
-  @media screen and (min-width: 900px) {
+  @media screen and (max-width: 900px) {
     display: none;
   }
 }
