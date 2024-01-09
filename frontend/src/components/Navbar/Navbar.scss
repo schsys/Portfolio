@@ -154,6 +154,45 @@
   }
 }
 
+.button-resume {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  cursor: pointer;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  height: 36px;
+  line-height: 27px;
+  min-width: 54px;
+  padding: 0 16px;
+  text-align: center;
+  user-select: none;
+  padding: 5px 3px;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: pre;
+
+  a {
+    text-decoration: none;
+  }
+
+  @media screen and (min-width: 900px) {
+    display: none;
+  }
+}
+
+.button-resume:hover {
+  border-color: #dadce0;
+  box-shadow: rgba(0, 0, 0, .1) 0 1px 1px;
+  color: #202124;
+}
+
+.button-resume:focus {
+  border-color: #4285f4;
+  outline: none;
+}
+
 .app__navbar-btnCAT {
   background-image: linear-gradient(#42A1EC, #0070C9);
   border: 1px solid #0077CC;
@@ -165,7 +204,7 @@
   display: block;
   padding: 5px 3px;
   font-family: "SF Pro Text", "SF Pro Icons", "AOS Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 400;
   letter-spacing: -.022em;
   line-height: 1.47059;

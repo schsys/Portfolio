@@ -19,27 +19,35 @@ const Navbar = () => {
           </li>
         ))}
       </ul>
+      <div className="button-resume">
+        <a href={resume} download="ldsch-resume.pdf">
+          resume
+        </a>
+      </div>
       <div className="app__navbar-btnCAT">
-          <a href={resume} download="ldsch-resume.pdf">
-            resume
-          </a>
+        <a href="https://calendly.com/schsistemas/reuniao-de-trabalho" target="_blank" rel="noopener noreferrer">schedule a meeting</a>
       </div>
       <div className="app__navbar-menu">
-        <HiMenuAlt4 onClick={() => setToggle(true)} />
+        <HiMenuAlt4 onClick={() => setToggle(!toggle)} />
         {toggle && (
           <motion.div
             whileInView={{ x: [300, 0] }}
             transition={{ duration: 0.85, ease: "easeOut" }}
           >
-            <HiX onClick={() => setToggle(false)} />
+            <HiX onClick={() => setToggle(!toggle)} />
             <ul>
               {["home", "about", "work", "skills", "contact"].map((item) => (
                 <li key={item}>
-                  <a href={`#${item}`} onClick={() => setToggle(false)}>
+                  <a href={`#${item}`} onClick={() => setToggle(!toggle)}>
                     {item}
                   </a>
                 </li>
               ))}
+              <li>
+                <a href={resume} download="ldsch-resume.pdf">
+                  resume
+                </a>
+              </li>
             </ul>
           </motion.div>
         )}
