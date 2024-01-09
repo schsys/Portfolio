@@ -18,11 +18,12 @@ const Navbar = () => {
             <a href={`#${item}`}>{item}</a>
           </li>
         ))}
-        <li className="app__flex p-text">
-            <div />
-            <a href={resume} download="ldsch-resume.pdf">resume</a>
-          </li>
       </ul>
+      <div className="app__navbar-btnCAT">
+          <a href={resume} download="ldsch-resume.pdf">
+            resume
+          </a>
+      </div>
       <div className="app__navbar-menu">
         <HiMenuAlt4 onClick={() => setToggle(true)} />
         {toggle && (

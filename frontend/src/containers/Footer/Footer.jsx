@@ -37,7 +37,8 @@ const Footer = () => {
 
   return (
     <>
-      <h2 className="head-text">Take a coffe and Chat with me (^_^)</h2>
+      <h2 className="head-text">Let's take a coffe (^_^)... </h2> 
+      <h2>or simply you can</h2> <div className="app__navbar-btnCAT"> <a href="https://calendly.com/schsistemas/reuniao-de-trabalho" target="_blank" rel="noopener noreferrer">schedule a meeting</a></div>
       <div className="app__footer-cards">
         <div className="app__footer-card">
           <img src={images.email} alt="email" />
@@ -48,7 +49,7 @@ const Footer = () => {
         <div className="app__footer-card">
           <img src={images.mobile} alt="mobile" />
           <a href="tel:+351963309798" className="p-text">
-            (+351) 963 309 798
+            (+351) 930 669 714
           </a>
         </div>
       </div>

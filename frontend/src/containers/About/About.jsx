@@ -14,11 +14,11 @@ const About = () => {
   return (
     <>
       <h2 className="head-text">
-        I know that
-        <span> the Form</span>
+        I'm here to
+        <span> give you solutions</span>
         <br />
-        arises from
-        <span> the Content</span>
+        to boost your
+        <span> business</span>
       </h2>
       <div className="app__profiles">
         {abouts.map((about, index) => (
