@@ -1,4 +1,5 @@
 import { Button, Carousel, Typography } from "@/utils/withMT";
+import Image from "next/image";
 
 export default function ImgSlider() {
   return (
@@ -6,9 +7,10 @@ export default function ImgSlider() {
       {/*  */}
       <div className="relative h-full w-full">
         <img
-          src="/01-design.jpg"
+          src={"/img/01-design.jpg"}
           alt="Design and Prototyping"
           className="h-screen w-full object-cover"
+        // fill
         />
         <div className="absolute inset-0 grid h-full w-full items-center md:items-end bg-black/80">
           <div className="w-3/4 pl-12 pb-12 md:w-2/4 md:pl-20 md:pb-20 lg:pl-32 lg:pb-32">
@@ -30,7 +32,7 @@ export default function ImgSlider() {
             </Typography>
             <div className="flex justify-end gap-2">
               <Button size="lg" color="white">
-                let's talk &rarr;
+                let&apos;s talk &rarr;
               </Button>
             </div>
           </div>
@@ -39,9 +41,10 @@ export default function ImgSlider() {
 
       <div className="relative h-full w-full">
         <img
-          src="/02-code.jpg"
+          src={"/img/02-code.jpg"}
           alt="Development"
           className="h-screen w-full object-cover"
+        // fill
         />
         <div className="absolute inset-0 grid h-full w-full items-center md:items-end bg-black/80">
           <div className="w-3/4 pl-12 pb-12 md:w-2/4 md:pl-20 md:pb-20 lg:pl-32 lg:pb-32">
@@ -58,11 +61,11 @@ export default function ImgSlider() {
               className="text-left mb-12 opacity-80"
             >
               Your site needs a revamp? or your store requires an expansion? <br />
-              This shouldn't be stressful. Our team is prepared to build the <strong>Solutions</strong> your business requires.
+              This shouldn&apos;t be stressful. Our team is prepared to build the <strong>Solutions</strong> your business requires.
             </Typography>
             <div className="flex justify-end gap-2">
               <Button size="lg" color="white">
-                let's talk &rarr;
+                let&apos;s talk &rarr;
               </Button>
             </div>
           </div>
@@ -71,9 +74,10 @@ export default function ImgSlider() {
 
       <div className="relative h-full w-full">
         <img
-          src="/04-repair.jpg"
+          src={"/img/04-repair.jpg"}
           alt="image 4"
           className="h-screen w-full object-cover"
+        // fill
         />
         <div className="absolute inset-0 grid h-full w-full items-center md:items-end bg-black/80">
           <div className="w-3/4 pl-12 pb-12 md:w-2/4 md:pl-20 md:pb-20 lg:pl-32 lg:pb-32">
@@ -91,7 +95,7 @@ export default function ImgSlider() {
             >
               As a key part of your daily work, your equipments must be maintained periodically
               and carry out preventive actions.<br />
-              We're here to help you <strong>take care of it.</strong>
+              We&apos;re here to help you <strong>take care of it.</strong>
             </Typography>
             <div className="flex justify-end gap-2">
               <Button size="lg" color="white">
@@ -104,9 +108,10 @@ export default function ImgSlider() {
 
       <div className="relative h-full w-full">
         <img
-          src="/03-support.jpg"
+          src={"/img/03-support.jpg"}
           alt="SEO and Analytics"
           className="h-screen w-full object-cover"
+        // fill
         />
         <div className="absolute inset-0 grid h-full w-full items-center md:items-end bg-black/80">
           <div className="w-3/4 pl-12 pb-12 md:w-2/4 md:pl-20 md:pb-20 lg:pl-32 lg:pb-32">
@@ -123,7 +128,7 @@ export default function ImgSlider() {
               className="text-left mb-12 opacity-80"
             >
               Keyword research and search engine optimization is mandatory to get the results your project needs. <br />
-              Let's <strong>boost your site!</strong>
+              Let&apos;s <strong>boost your site!</strong>
             </Typography>
             <div className="flex justify-end gap-2">
               <Button size="lg" color="white">

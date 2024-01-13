@@ -40,11 +40,17 @@ body {
   @apply relative hover:text-white cursor-pointer tracking-[1px];
 }
 
+.nav-link:focus,
+.nav-link:hover {
+  @apply text-white;
+}
+
 .menu-link::after {
   @apply content-[''] bg-white h-[3px] w-[0] left-0 -bottom-[4px] rounded-xl absolute duration-300;
 }
 
-.menu-link:hover::after {
+.menu-link:hover::after,
+.menu-link:focus::after {
   @apply w-[100%];
 }
 
@@ -53,9 +59,9 @@ body {
 }
 
 .menu-link-footer::after {
-  @apply content-[''] opacity-0 bg-white left-[-10px] top-[35%] h-[5px] w-[5px] rounded-xl absolute duration-300;
+  @apply content-[''] opacity-0 bg-white left-[-10px] top-[35%] h-[5px] w-[5px] rounded-xl absolute duration-300 pointer-events-none;
 }
 
 .menu-link-footer:hover::after {
-  @apply opacity-100 pointer-events-none;
+  @apply opacity-100;
 }

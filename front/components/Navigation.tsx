@@ -17,7 +17,7 @@ const Navigation = () => {
 
   return (
     <header className="sm:sticky top-0 z-50" >
-      <nav className="text-blue-gray-800 md:text-platinum-600">
+      <nav className="dark:text-blue-gray-800 md:text-platinum-600">
         <div id="navigation"
           className={`flex flex-row justify-around items-center w-full md:mb-[-3.8rem] md:py-3 z-50 
             bg-gunmetal-500 md:transition md:duration-300 md:bg-clip-padding  
@@ -25,7 +25,7 @@ const Navigation = () => {
               "md:bg-gradient-to-b from-black to-transparent md:bg-opacity-0"}`}>
           <div className="">
             <Link href="/">
-              <Image src="/logo.png"
+              <Image src={"/img/logo.png"}
                 alt="SCH Sistemas"
                 title="SCH Sistemas"
                 width={150}
@@ -35,25 +35,19 @@ const Navigation = () => {
           </div>
           <div className="flex flex-col sm:flex-row items-center">
 
-            <div id='menu' className="hidden md:flex text-blue-gray-600">
+            <div id='menu' className="hidden md:flex text-gray-800">
               <ul className="flex flex-col sm:flex-row my-2 mr-8 gap-8 md:text-xs font-semibold text-center">
-                {/* <li className="hover:text-white cursor-pointer transition duration-300 isActive">
-                  <Link href={"/"} >Home</Link></li> */}
+
                 <li className="menu-link">
                   <Link href={"/"} >Home</Link></li>
-                {/* <a href="/">Home</a></li> */}
                 <li className="menu-link">
                   <Link href={"/about"} >About Us</Link></li>
-                {/* <a href="/about">About Us</a></li> */}
                 <li className="menu-link">
-                  <Link href={"#services"} >Services</Link></li>
-                {/* <a href="#services">Services</a></li> */}
+                  <Link href={"/#services"} >Services</Link></li>
                 <li className="menu-link">
-                  <Link href={"#projects"} >Projects</Link></li>
-                {/* <a href="#projects">Projects</a></li> */}
+                  <Link href={"/#projects"} >Projects</Link></li>
                 <li className="menu-link">
                   <Link href={"/blog"} >Blog</Link></li>
-                {/* <a href="/blog">Blog</a></li> */}
               </ul>
               <a href="/contact">
                 <button className="bg-blue-900 text-white sm:text-sm font-bold rounded-md 

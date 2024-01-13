@@ -10,7 +10,7 @@ const Footer = () => {
           <ul className='text-silver-300'>
             <li>Lisbon, Portugal</li>
             <li><strong>(+351) 930 669 714</strong></li>
-            <li>schsistemas@gmail.com</li>
+            <li>info@schsistemas.dev</li>
           </ul>
           <ul className='flex justify-center sm:justify-start gap-2 mt-5 text-lg'>
             <li className='hover:text-gunmetal-600 transition duration-300'>

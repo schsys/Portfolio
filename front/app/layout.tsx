@@ -1,10 +1,12 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Jura } from 'next/font/google'
 import './globals.css'
 import Footer from '@/containers/Footer'
 import { ThemeProvider } from '@/utils/withMT'
+import "@fortawesome/fontawesome-svg-core/styles.css";
+import { config } from "@fortawesome/fontawesome-svg-core";
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Jura({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'SCH Sistemas',
