@@ -1,0 +1,61 @@
+{
+  "data": [
+    {
+      "planName": "OnePage",
+      "custom": false,
+      "price": 150,
+      "element": [
+        "Single Page",
+        "5 Sections",
+        "1 Social Widget",
+        "1Gb SSD",
+        "1 e-mail account"
+      ]
+    },
+    {
+      "planName": "Basic",
+      "custom": false,
+      "price": 400,
+      "element": [
+        "Landing Page",
+        "5 Pages",
+        "2 Social Widgets",
+        "1Gb SSD",
+        "1 e-mail account"
+      ]
+    },
+    {
+      "planName": "Site + Blog",
+      "price": 750,
+      "element": [
+        "Wordpress Powered",
+        "3 Business Pages",
+        "Blog section",
+        "Social sharing",
+        "Hosting and 2 e-mail accounts"
+      ]
+    },
+    {
+      "planName": "E-Store",
+      "custom": false,
+      "price": 1200,
+      "element": [
+        "Wordpress Powered",
+        "3 Pages + Store + Blog",
+        "SEO Ready",
+        "Social sharing",
+        "Hosting and 2 e-mail accounts"
+      ]
+    },
+    {
+      "planName": "Web Application",
+      "custom": true,
+      "element": [
+        "All WebApps are custom quoted",
+        "Frontend, Backend or FullStack apps",
+        "Database connections",
+        "Virtual Private Server"
+      ]
+    }
+  ]
+}

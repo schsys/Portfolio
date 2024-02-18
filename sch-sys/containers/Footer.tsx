@@ -4,7 +4,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <>
-      <div className='grid grid-cols-1 sm:grid-cols-3 text-center text-sm sm:text-xs max-w-5xl mx-12 lg:mx-auto py-4'>
+      <div className='flex flex-col lg:flex-row justify-evenly text-center text-sm sm:text-xs mx-12 lg:mx-auto py-4'>
         <div className='sm:text-left '>
           <p className='border-b border-b-white-400 dark:text-silver-500 w-full sm:w-fit mx-auto sm:mx-0 mb-2'>Get in touch</p>
           <ul className='text-silver-300'>
@@ -51,7 +51,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className='sm:text-left sm:ml-4'>
+        <div className='sm:text-left sm:mx-6'>
           <p className='border-b border-b-white-400 dark:text-silver-500 w-full sm:w-fit mx-auto sm:mx-0 mb-2 mt-6 sm:mt-0'>Sitemap</p>
           <ul className="space-y-1 text-silver-300">
             <li className="menu-link-footer">
@@ -68,7 +68,7 @@ const Footer = () => {
               <a href="/contact">Contact</a></li>
           </ul>
         </div>
-        <div className='flex flex-col justify-center'>
+        <div className='flex flex-col w-80'>
           <p className='border-b border-b-white-400 dark:text-silver-500 w-full sm:w-fit mx-auto sm:mx-0 mb-3 mt-6 sm:mt-0'>Receive the latest news!</p>
           <form action="" method="post">
             <div className='flex flex-col space-y-3 max-w-sm mx-auto sm:mx-0 justify-end'>
@@ -79,7 +79,7 @@ const Footer = () => {
           </form>
         </div>
       </div >
-      <div className='text-[10px] text-center my-2 mx-auto py-4 border-t-white-400 border-t md:max-w-5xl'>
+      <div className='text-[10px] text-center my-2 mx-auto py-4 border-t-white-400 border-t'>
         <strong>&copy;2023 SCH Sistemas</strong> - All rights reserved <br />
         <a href="#">Terms & Conditions</a> - <a href="">Privacy Policy</a>
       </div>

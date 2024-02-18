@@ -3,6 +3,7 @@ import Hero from '@/containers/Hero'
 import Projects from '@/containers/Projects'
 import Services from '@/containers/Services'
 import Solutions from '@/containers/Solutions'
+import Prices from '@/containers/Prices'
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         <Hero />
         <Solutions />
         <Services />
+        <Prices />
         <Projects />
       </main>
     </>

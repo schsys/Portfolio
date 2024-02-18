@@ -81,6 +81,7 @@ module.exports = withMT({
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         "services-bg": "url('/img/keysBG.png')",
+        "about-bg": "url('/img/bg-white.jpg')",
       },
     },
   },

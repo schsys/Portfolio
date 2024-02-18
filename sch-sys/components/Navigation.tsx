@@ -30,7 +30,7 @@ const Navigation = () => {
                 title="SCH Sistemas"
                 width={150}
                 height={25}
-                className="h-auto shadow-md"
+                className="h-auto drop-shadow-md"
               /></Link>
           </div>
           <div className="flex flex-col sm:flex-row items-center">
@@ -49,10 +49,10 @@ const Navigation = () => {
                 <li className="menu-link">
                   <Link href={"/blog"} >Blog</Link></li>
               </ul>
-              <a href="/contact">
+              <a href="https://calendly.com/schsistemas/reuniao-de-trabalho" target="_blank" rel="noopener noreferrer">
                 <button className="bg-blue-900 text-white sm:text-sm font-bold rounded-md 
                     px-6 sm:px-4 py-3 sm:py-2 hover:bg-light-blue-900 hover:text-platinum-700 transition duration-300">
-                  Contact us!
+                  Schedule a meeting
                 </button>
               </a>
             </div>
@@ -71,7 +71,7 @@ const Navigation = () => {
                     <div className="hover:bg-platinum-200 py-4">Projects</div></li></Link>
                   <Link onClick={() => setNavBar(!navBar)} href="/blog"><li className="block">
                     <div className="hover:bg-platinum-200 py-4">Blog</div></li></Link>
-                  <Link onClick={() => setNavBar(!navBar)} href="/contact"><li className="block">
+                  <Link onClick={() => setNavBar(!navBar)} href="https://calendly.com/schsistemas/reuniao-de-trabalho" target="_blank" rel="noopener noreferrer"><li className="block">
                     <div className="bg-gunmetal-600 hover:bg-platinum-200 py-4">Contact Us</div></li></Link>
                 </ul>
               </div>

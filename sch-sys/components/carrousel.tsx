@@ -1,5 +1,6 @@
+"use client"
 import { Button, Carousel, Typography } from "@/utils/withMT";
-import Image from "next/image";
+// import Image from "next/image";
 
 export default function ImgSlider() {
   return (
@@ -31,7 +32,7 @@ export default function ImgSlider() {
               <i>Tell us what you need.</i>
             </Typography>
             <div className="flex justify-end gap-2">
-              <Button size="lg" color="white">
+              <Button size="lg" color="white" onClick={() => { window.location.href = "https://calendly.com/schsistemas/reuniao-de-trabalho"; }}>
                 let&apos;s talk &rarr;
               </Button>
             </div>
@@ -64,7 +65,7 @@ export default function ImgSlider() {
               This shouldn&apos;t be stressful. Our team is prepared to build the <strong>Solutions</strong> your business requires.
             </Typography>
             <div className="flex justify-end gap-2">
-              <Button size="lg" color="white">
+              <Button size="lg" color="white" onClick={() => { window.location.href = "https://calendly.com/schsistemas/reuniao-de-trabalho"; }}>
                 let&apos;s talk &rarr;
               </Button>
             </div>
@@ -98,7 +99,7 @@ export default function ImgSlider() {
               We&apos;re here to help you <strong>take care of it.</strong>
             </Typography>
             <div className="flex justify-end gap-2">
-              <Button size="lg" color="white">
+              <Button size="lg" color="white" onClick={() => { window.location.href = "https://calendly.com/schsistemas/reuniao-de-trabalho"; }}>
                 Know how &rarr;
               </Button>
             </div>
@@ -131,7 +132,7 @@ export default function ImgSlider() {
               Let&apos;s <strong>boost your site!</strong>
             </Typography>
             <div className="flex justify-end gap-2">
-              <Button size="lg" color="white">
+              <Button size="lg" color="white" onClick={() => { window.location.href = "https://calendly.com/schsistemas/reuniao-de-trabalho"; }}>
                 Optimize it &rarr;
               </Button>
             </div>
